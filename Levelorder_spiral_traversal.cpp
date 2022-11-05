@@ -1,6 +1,21 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Example 1 :-
+//       1
+//     /   \
+//    3     2
+// Output:1 3 2
+
+// Example 2 :-
+// Input:
+//            10
+//          /     \
+//         20     30
+//       /    \
+//     40     60
+// Output: 10 20 30 60 40 
+
 class Node
 {
     public:
@@ -53,21 +68,7 @@ vector<int> findSpiral(Node *root)
 }
 
 int main(){
-
-// Example 1 :-
-//       1
-//     /   \
-//    3     2
-// Output:1 3 2
-
-// Example 2 :-
-// Input:
-//            10
-//          /     \
-//         20     30
-//       /    \
-//     40     60
-// Output: 10 20 30 60 40 
-  
+    
+    // function for solution is given above
     return 0;
 }
